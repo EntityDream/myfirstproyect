@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioDeRegistro</title>
+</head>
+<body>
+    <h1>¡Regístrate y únete a la comunidad!</h1>
+    <form action="/registro" method="POST">
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <br />
+        <div>
+            <label>Apellido: </label>
+            <input type="text" name="apellido" id="apellido">
+        </div>
+        <br />
+        <div>
+            <label>Correo Electrónico: </label>
+            <input type="text" name="correo_electrónico" id="correo electrónico">
+        </div>
+        <br />
+        <div>
+            <label>Contraseña: </label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <br />
+        <div>
+            <label>Confirmar Contraseña: </label>
+            <input type="password" name="confirmar_contraseña" id="confirmar contraseña">
+        </div>
+        <br />
+        <div>
+            <label>Fecha de Nacimiento: </label>
+            <input type="date" name="fecha_nacimiento" id="fecha de nacimiento">
+        </div>
+        <br />
+        <div>
+            <label>Género: </label>
+            <input type="radio" name="Género" id="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="Género" id="Femenimo">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" name="Género" id="Prefiero no decirlo">
+            <label for="Prefiero no decirlo">Prefiero no decirlo</label>
+        </div>
+        <br />
+        <div>
+            <input type="checkbox" name="acepto" id="acepto">
+            <label for="acepto">Suscríbete a nuestro boletín de noticias</label>
+        </div>
+        <br />
+        Una descripción de mi mismo: 
+        <div>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <br />
+        <div>
+            <label for="Selecciona_intereses">Selecciona tus intereses: </label>
+            <select name="Selecciona_intereses" id="Seleccion intereses">
+                <option value="Ritmo">Música</option>
+                <option value="Futbol">Deportes</option>
+                <option value="Argentina">Viajes</option>
+                <option value="Ordenador">Tecnología</option></select>
+        </div>
+        <br /> 
+        <div>
+            <input type="submit" value="¡Registrarse!">
+        </div>
+    </form>
+</body>
+</html>
