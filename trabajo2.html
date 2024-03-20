@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo</title>
+</head>
+<body>
+    <form action="/registro" method="post">
+        <label for="nombre">Nombre Artístico: </label>
+        <div>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <label for="nombre1">Nombre Real: </label>
+        <div>
+            <input type="text" name="nombre1" id="nombre1">
+        </div>
+        <label for="edad">Edad: </label>
+        <div>
+            <input type="number" name="edad" id="edad">
+        </div>
+        <label for="fecha_nacimiento">Fecha de Nacimiento: </label>
+        <div>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <label for="comentario">Canciones Top 5 Spotify: </label>
+        <div>
+        <textarea name="comentario" id="comentario" cols="19" rows="3"></textarea>
+        </div>
+        <label for="continente">Continente de Nacionalidad: </label>
+        <div>
+            <select name="continente" id="continente">
+                <option value="Americano">América</option>
+                <option value="Asiatico">Asia</option>
+                <option value="Europeo">Europa</option>
+                <option value="Australiano">Australia</option>
+                <option value="Africano">Africa</option>
+                <option value="Oceanico">Oceania</option>
+            </select>
+        </div>
+        <label for="Musica">Género Musical: </label>
+        <div>
+            <select name="Musica" id="Musica">
+                <option value="Rockero">Rock</option>
+                <option value="Jazzeo">Jazz</option>
+                <option value="metalero">Metal</option>
+                <option value="heavy_metalero">Heavy Metal</option>
+                <option value="reggetonero">Reggeaton</option>
+                <option value="Salseo">Salsa</option>
+                <option value="Cumbiero">Cumbia</option>
+                <option value="Merenguero">Merengue</option>
+                <option value="Tecno">Tecno</option>
+            </select> 
+        </div>
+        <div>
+            <label for="Generos">Género: </label>
+        </div>
+        <div>
+            <input type="radio" name="Generos" id="Femenino">
+            <label for="Masculino">Masculino</label>
+        </div>
+        <div>
+            <input type="radio" name="Generos" id="Otros">
+            <label for="Femenimo">Femenino</label>
+        </div>
+            <input type="radio" name="Generos" id="Otros">
+            <label for="Otros">Otros</label>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
